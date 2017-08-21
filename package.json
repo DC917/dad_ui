@@ -1,34 +1,24 @@
 {
-  "_from": "https://github.com/vladotesanovic/ngSemantic/tarball/master",
-  "_id": "ng-semantic@1.1.13",
+  "_from": "https://github.com/DC917/dad_ui",
   "_inBundle": false,
   "_integrity": "sha1-i02rZmi5nDCJF98fakFlzf9HcAQ=",
-  "_location": "/ng-semantic",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "ng-semantic@https://github.com/vladotesanovic/ngSemantic/tarball/master",
     "name": "dad_ui",
-    "escapedName": "ng-semantic",
-    "rawSpec": "https://github.com/vladotesanovic/ngSemantic/tarball/master",
-    "saveSpec": "https://github.com/vladotesanovic/ngSemantic/tarball/master",
-    "fetchSpec": "https://github.com/vladotesanovic/ngSemantic/tarball/master"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://github.com/vladotesanovic/ngSemantic/tarball/master",
-  "_spec": "ng-semantic@https://github.com/vladotesanovic/ngSemantic/tarball/master",
-  "_where": "/home/ding/code/web/test-code/Ng-test",
   "author": {
-    "name": "Vlado Tešanović"
+    "name": "ding"
   },
   "bugs": {
-    "url": "https://github.com/vladotesanovic/ngSemantic/issues"
+    "url": "https://github.com/DC917/dad_ui/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "Angular2 building blocks based on Semantic UI",
+  "description": "Semantic UI for Dad",
   "devDependencies": {
     "@angular/common": "^2.0.1",
     "@angular/compiler": "^2.0.1",
@@ -67,22 +57,13 @@
   ],
   "license": "MIT",
   "main": "./ng-semantic.js",
-  "name": "ng-semantic",
+  "name": "dad_ui",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vladotesanovic/ngSemantic.git"
+    "url": "https://github.com/DC917/dad_ui"
   },
   "scripts": {
-    "demo:bundle": "tsc -p './demo' && node tools/demo.builder.js",
-    "demo:lint": "tslint -c ./tslint.json 'demo/app/**/*.ts'",
-    "demo:server": "node tools/server.js",
-    "library:bundle": "tsc && rm -rf bundles && node tools/library.builder.js",
-    "library:lint": "tslint -c ./tslint.json 'src/**/*.ts'",
-    "prepublish": "npm run demo:lint",
-    "start": "tsc && concurrently \"tsc -w\" \"npm run tsc:w\" \"lite-server -c tools/dev.config.js\" ",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w -p ./demo"
   },
   "typings": "./ng-semantic.d.ts",
-  "version": "1.1.13"
+  "version": "1.0.0"
 }
