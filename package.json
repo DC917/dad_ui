@@ -1,23 +1,5 @@
 {
-  "_from": "https://github.com/DC917/dad_ui",
-  "_inBundle": false,
-  "_integrity": "sha1-i02rZmi5nDCJF98fakFlzf9HcAQ=",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "remote",
-    "name": "dad_ui",
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "author": {
-    "name": "ding"
-  },
-  "bugs": {
-    "url": "https://github.com/DC917/dad_ui/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "author": "dc917",
   "description": "Semantic UI for Dad",
   "devDependencies": {
     "@angular/common": "^2.0.1",
@@ -48,22 +30,18 @@
   "engines": {
     "node": ">= 5.4.1"
   },
-  "homepage": "https://ng-semantic.herokuapp.com/",
   "keywords": [
-    "angular",
     "angular2",
-    "semanticui",
     "semantic-ui"
   ],
   "license": "MIT",
-  "main": "./ng-semantic.js",
   "name": "dad_ui",
   "repository": {
     "type": "git",
     "url": "https://github.com/DC917/dad_ui"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "typings": "./ng-semantic.d.ts",
   "version": "1.0.0"
 }
