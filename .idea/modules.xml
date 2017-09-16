@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dad_ui.iml" filepath="$PROJECT_DIR$/.idea/dad_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dad-semantic.iml" filepath="$PROJECT_DIR$/.idea/dad-semantic.iml" />
     </modules>
   </component>
 </project>
